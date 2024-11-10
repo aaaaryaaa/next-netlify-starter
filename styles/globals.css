@@ -1,33 +1,73 @@
 body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            max-width: 600px;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        p {
-            line-height: 1.6;
-            font-size: 16px;
-        }
-        .highlight {
-            color: #e74c3c;
-            font-weight: bold;
-        }
-        .emoji {
-            font-size: 18px;
-        }
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.highlight {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 18px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    max-width: 90%; /* Take up more space on smaller screens */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce the size of the header on smaller screens */
+  }
+
+  p {
+    font-size: 14px; /* Smaller font size for text on smaller screens */
+  }
+
+  .emoji {
+    font-size: 16px; /* Smaller emoji size */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px; /* Even smaller header text for very small screens */
+  }
+
+  p {
+    font-size: 12px; /* Adjust text size for readability on small phones */
+  }
+
+  .emoji {
+    font-size: 14px; /* Adjust emoji size */
+  }
+}
