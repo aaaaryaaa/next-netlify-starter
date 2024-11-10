@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="container">
+      <div class="">
         <h1>Hello, Everyone! <span class="emoji">🌟</span></h1>
         <p>I'm <span class="highlight">Aarya R</span>, Head of Web Development at ISTE Manipal!</p>
         <p>I’m here to guide the development of our primary platform, the ISTE website, and to work with all of you on exciting projects that push boundaries. I'm always eager to discuss new project ideas, startups, or anything innovative in tech.</p>
